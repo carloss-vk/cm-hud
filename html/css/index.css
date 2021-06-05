@@ -1,0 +1,136 @@
+* {
+
+    font-family       :       'Oswald', sans-serif;
+
+    font-size         :       1.1vh;
+
+}
+
+.textpercent {
+
+    width            :       2vh;
+
+    float            :       right;
+
+    padding-left     :       0.5vh;
+
+    text-align       :       center;
+
+}
+
+body {
+
+    width     :       100%;
+
+    overflow  :       hidden;
+
+}
+
+#logo {
+
+    position    :       absolute;
+
+    opacity     :       1;
+
+    right       :       -19.0vh;
+
+    top         :       0.9vh;
+
+}
+
+.cmx-hud-box {
+
+    background-color       :       rgba(23, 114, 218, 0.336);
+
+    margin-top             :        5px;
+
+    border                 :        1.5px solid whitesmoke;
+
+    color                  :       white;
+
+    padding                :       0.8vh 0.8vh;
+
+    text-align             :       center;
+
+    margin-top             :       0.2vh;
+
+    border-radius          :       0.4vh;
+
+    color                  :     white;
+
+}
+
+
+.cmx-hudcar-box {
+
+    background-color       :       rgba(23, 114, 218, 0.336);
+
+    border                 :        1.5px solid whitesmoke;
+
+    margin-left            :        5px;
+
+    padding                :       0.5vh 0.6vh;
+
+    text-align             :       center;
+
+    margin-top             :       0.2vh;
+
+    border-radius          :       0.4vh;
+
+    color                  :     white;
+
+    float                  :      left;
+
+}
+
+.fas {
+
+    font-size       :       1.5vh;
+
+    vertical-align  :       middle;
+
+}
+
+
+#hud {
+
+    position     :       absolute;
+
+    bottom       :       3vh;
+
+    left         :       1vh;
+
+}
+
+#hudcar {
+
+    position     :       absolute;
+
+    bottom       :       -10vh;
+
+    left         :       2.85vh;
+
+}
+
+#hudcar #healt {
+
+    border-radius       :       0.5vh 0 0 0.5vh;
+
+}
+
+#hudcar #fuel {
+
+    border-radius       :       0 0.5vh 0.5vh 0;
+
+}
+
+
+#carstats {
+
+    position     :       absolute;
+
+    bottom       :       3vh;
+
+    left         :       28vh;
+
+}
